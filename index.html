@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping Bazaar README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+
+        #preview {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #007BFF;
+            text-align: center;
+        }
+
+        h3, h4 {
+            color: #0056b3;
+        }
+
+        p, li, pre {
+            margin-bottom: 1rem;
+        }
+
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        pre {
+            background-color: #f1f3f5;
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: "Courier New", Courier, monospace;
+        }
+
+        code {
+            background-color: #e9ecef;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: #dee2e6;
+            margin: 2rem 0;
+        }
+
+        .content {
+            padding: 1rem;
+        }
+
+        .markdown-body ul {
+            list-style-type: disc;
+        }
+
+        .markdown-body ol {
+            list-style-type: decimal;
+        }
+
+        .markdown-body strong {
+            color: #343a40;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .note {
+            background: #fff3cd;
+            padding: 1rem;
+            border-left: 5px solid #ffecb5;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        .note strong {
+            color: #856404;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            color: #ffffff;
+            background: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="preview" class="column">
+        <div id="preview-wrapper">
+            <div id="output" class="content markdown-body">
+                <hr>
+                <h1>Camping Bazaar</h1>
+                <p>Welcome to <strong>Camping Bazaar</strong>, a platform for buying, selling, and exchanging camping gear. This project is divided into two parts:  </p>
+                <ol>
+                    <li><strong>Front-end</strong>: Built with React.js  </li>
+                    <li><strong>Back-end</strong>: Powered by Express.js</li>
+                </ol>
+                <p>Follow the steps below to set up and run the projects locally.</p>
+                <hr>
+                <h2>🚀 Getting Started</h2>
+                <h3>Prerequisites</h3>
+                <p>Make sure you have the following installed on your system:  </p>
+                <ul>
+                    <li><a href="https://nodejs.org/">Node.js</a> (v16 or above)  </li>
+                    <li><a href="https://www.npmjs.com/">npm</a> (comes with Node.js)  </li>
+                    <li><a href="https://git-scm.com/">Git</a></li>
+                </ul>
+                <hr>
+                <h2>📂 Project Structure</h2>
+                <ul>
+                    <li><strong>Front-end</strong>: <a href="https://github.com/Aniisss/CampingBazzar--WEB-/tree/feat">CampingBazzar--WEB-</a>  </li>
+                    <li><strong>Back-end</strong>: <a href="https://github.com/Aniisss/campingBazzar--backend">campingBazzar--backend</a></li>
+                </ul>
+                <hr>
+                <h2>🔧 Installation</h2>
+                <h3>Front-end Setup</h3>
+                <h4>1️⃣ Clone the Repository</h4>
+                <pre><code class="language-bash"># Clone the front-end repository
+git clone https://github.com/Aniisss/CampingBazzar--WEB-.git
+cd CampingBazzar--WEB-
+git checkout feat
+</code></pre>
+                <h4>2️⃣ Install Dependencies</h4>
+                <pre><code class="language-bash">npm install
+</code></pre>
+                <h4>3️⃣ Start the Application</h4>
+                <pre><code class="language-bash">npm start
+</code></pre>
+                <p>The React app will run on <a href="http://localhost:3000">http://localhost:3000</a>.  </p>
+                <hr>
+                <h3>Back-end Setup</h3>
+                <h4>1️⃣ Clone the Repository</h4>
+                <pre><code class="language-bash"># Clone the back-end repository
+git clone https://github.com/Aniisss/campingBazzar--backend.git
+cd campingBazzar--backend
+</code></pre>
+                <h4>2️⃣ Install Dependencies</h4>
+                <pre><code class="language-bash">npm install
+</code></pre>
+                <h4>3️⃣ Configure Environment</h4>
+                <p>Add a <code>service-account.json</code> file in the <code>campingBazzar--backend/src/config</code> directory  </p>
+                <h4>4️⃣ Start the Server</h4>
+                <pre><code class="language-bash">node index.js -port 5000</code></pre>
+                <p>The server will run on <a href="http://localhost:5000">http://localhost:5000</a>.</p>
+                <hr>
+                <h2>🌐 Access the Application</h2>
+                <ol>
+                    <li>Open your browser and visit <a href="http://localhost:3000">http://localhost:3000</a> to access the front-end.  </li>
+                    <li>The front-end communicates with the back-end running on <a href="http://localhost:5000">http://localhost:5000</a>.</li>
+                </ol>
+                <p class="note"><strong>Note:</strong> The current front app on GitHub is communicating with the hosted backend on  <a href="http://20.64.237.50:3000">http://20.64.237.50:3000</a>, which means running the backend locally isn't mandatory, and if so, it won't make a difference.</p>
+                <hr>
+                <h2>🛠️ Development</h2>
+                <ul>
+                    <li><strong>Front-end</strong>: React components are located in the <code>src/components/</code> directory.  </li>
+                    <li><strong>Back-end</strong>: API routes are in the <code>src/routes/</code> folder.</li>
+                </ul>
+                <hr>
+                <h2>✨ Features</h2>
+                <ul>
+                    <li>Buy, sell, and exchange camping gear.  </li>
+                    <li>User authentication and messaging.  </li>
+                    <li>Discussion forums for camping enthusiasts.  </li>
+                    <li>See product details and manage favorites.</li>
+                </ul>
+                <hr>
+                <p>Happy Camping! 🏕️</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
